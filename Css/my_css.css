@@ -1,0 +1,15 @@
+p{
+    color: blueviolet;
+    background-color: azure;
+}
+
+h1{
+    color: red !important;
+    background-color: aquamarine !important;
+}
+
+h3{
+    color: black;
+    background-color: blue;
+    font-size: 50px;
+}
