@@ -1,0 +1,9 @@
+.b_prop{
+    width: 350px;
+    border: 6px double black;
+    
+    border-radius: 50px 60px 50px 20px;
+    border-color: blue red green violet;
+    box-shadow: 10px 10px black;
+    
+}

@@ -1,0 +1,23 @@
+body{
+    background-image: url("/Images/banner-5185692_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading1{
+    text-align: center;
+    color: white;
+    padding-top: 190px;
+    padding-left: 550px;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    padding-left: 550px;
+}
+
+.para{
+    margin-right: 50px;
+    text-decoration: underline;
+}

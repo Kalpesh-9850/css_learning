@@ -1,0 +1,15 @@
+.rel{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    left: 400px;
+    top: 30px;
+}
+
+#tv{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+}

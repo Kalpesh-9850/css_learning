@@ -1,0 +1,39 @@
+h1{
+    color: violet;
+    
+}
+
+h1:hover{
+    color: red;
+    border: 5px solid black;
+    width: 80px;
+    background-color: aliceblue;
+    border-color: aqua;
+    font-style: italic;
+}
+
+input:focus{
+    background-color: aqua;
+    color: black;
+    font-size: larger;
+    font-style: italic;
+}
+
+a:visited{
+    background-color: black;
+    color: red;
+}
+
+h2::first-letter{
+    color: brown;
+    font-size: 50px;
+}
+
+h2::first-line{
+    color: aqua;
+}
+
+::selection{
+    background-color: chartreuse;
+    color: black;
+}
