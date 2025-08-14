@@ -1,0 +1,53 @@
+@media (min-width: 320px) and (max-width: 767px){
+    body{
+        background-color: grey;
+    }
+    h1{
+        background-color: aliceblue;
+        height: 80px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .Main_Sub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        margin-top: 40px;   
+    }
+}
+
+@media (min-width: 768px){
+    body{
+    background-image: url("/Images/back.jpg") ;    
+    }
+    h1{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .Main_Sub{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: bigsmall 1s infinite alternate;
+    }
+    @keyframes bigsmall {
+        from {transform: scale(1);}
+        to {transform: scale(1.7);}
+        
+    }
+
+    .col{
+        display: none;
+    }
+
+    
+    
+
+
+}
